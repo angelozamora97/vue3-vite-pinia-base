@@ -1,0 +1,42 @@
+{
+  "name": "vue3-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
+    "format": "prettier .  --write",
+    "test": "jest tests/unit"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "pinia": "^2.0.18",
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.3"
+  },
+  "devDependencies": {
+    "@pinia/testing": "^0.0.14",
+    "@types/jest": "^28.1.7",
+    "@types/node": "^18.7.6",
+    "@typescript-eslint/eslint-plugin": "^5.33.1",
+    "@typescript-eslint/parser": "^5.33.1",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "@vue/eslint-config-typescript": "^11.0.0",
+    "@vue/test-utils": "^2.0.2",
+    "@vue/vue3-jest": "^28.1.0",
+    "eslint": "^8.22.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "jest": "^28.1.3",
+    "jest-environment-jsdom": "^28.1.3",
+    "prettier": "2.7.1",
+    "ts-jest": "^28.0.8",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.7",
+    "vite-plugin-eslint": "^1.8.1",
+    "vue-tsc": "^0.39.5"
+  }
+}

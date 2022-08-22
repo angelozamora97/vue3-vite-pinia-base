@@ -1,0 +1,12 @@
+* {
+  font-family: sans-serif;
+  color: var(--text-color-primary);
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --color-primary: rgb(47, 130, 255);
+  --text-color-primary: #2c3e50;
+}
